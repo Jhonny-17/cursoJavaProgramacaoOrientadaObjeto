@@ -1,0 +1,18 @@
+
+public class expressoes_comparativas {
+
+	public static void main(String[] args) {
+
+		int x = 5;
+		
+		
+		System.out.println("Bom dia!");
+		
+		if(x > 10) {
+			System.out.println("Bom tarde!");
+	}
+		System.out.println("Boa noite!");
+		
+	}
+
+}

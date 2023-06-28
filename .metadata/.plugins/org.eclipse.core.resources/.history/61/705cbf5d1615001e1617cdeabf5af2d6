@@ -1,0 +1,24 @@
+package exercicio_de_fixacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class usado_para_exemplos2 {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		String original = "Pessoal, estou com problema para atualizar o Dicionário de Dados de base remota. Vários erros surgem no console do Eclipse. Mas em bases locais, atualiza normal. Sabem se tem algum caminho diferente pra fazer isso?\r\n"
+				+ "Vi aqui com a QA da Squad, que também está com esse problema.\r\n"
+				+ "  ";
+		
+		String s01 = original.toLowerCase();
+		
+		System.out.println(s01); 
+		
+		
+		sc.close();
+	}
+}

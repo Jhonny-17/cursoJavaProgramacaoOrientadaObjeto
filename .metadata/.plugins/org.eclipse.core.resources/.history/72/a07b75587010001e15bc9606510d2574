@@ -1,0 +1,27 @@
+package exercicio_de_fixacao;
+
+import java.util.Scanner;
+
+public class exercicio_07_estrutura_condicional4 {
+
+	public static void main(String[] args) {
+
+
+		Scanner sc = new Scanner(System.in);
+		int hinicial, hfinal;
+		hinicial = sc.nextInt();
+		hfinal = sc.nextInt();
+		hinicial = 0;
+		hfinal = 24;
+		if (hinicial > 1)
+		if (hfinal < 24)
+		{
+			System.out.printf("O JOGO DUROU %.d%n HORA(S)");
+		
+		}
+		
+		
+		sc.close();
+	}
+
+}

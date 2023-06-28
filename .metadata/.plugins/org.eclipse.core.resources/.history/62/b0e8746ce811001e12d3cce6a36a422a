@@ -1,0 +1,24 @@
+package exercicio_de_fixacao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class exercicio_07_estrutura_condicional5 {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US); 
+		Scanner sc = new Scanner(System.in);
+		int CachorroQ = 1;
+		int CachorroQ = 2;
+		int  = 3;
+		int TorradaS = 4;
+		int Refri = 5;
+		
+		
+		
+		sc.close();
+		
+	}
+
+}
