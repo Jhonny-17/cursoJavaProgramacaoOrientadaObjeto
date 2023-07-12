@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class expressoes_comparativas {
+public class SaudacaoApp {
 
 	public static void main(String[] args) {
 

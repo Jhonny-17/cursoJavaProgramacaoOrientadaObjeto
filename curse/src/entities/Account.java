@@ -4,16 +4,12 @@ public class Account {
 	private int number;
 	private String holder;
 	private double balance;
+	
 	public Account(int number, String holder) {
 		this.number = number;
 		this.holder = holder;
 	}
-	public Account(int number, String holder, double initialDeposit) {
-		super();
-		this.number = number;
-		this.holder = holder;
-		deposit(initialDeposit);
-	}
+	
 	public int getNumber() {
 		return number;
 	}

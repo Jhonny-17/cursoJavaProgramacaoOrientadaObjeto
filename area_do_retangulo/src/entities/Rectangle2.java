@@ -1,6 +1,6 @@
 package entities;
 
-public class Rectangle {
+public class Rectangle2 {
 	private double width;
 	protected double height;
 

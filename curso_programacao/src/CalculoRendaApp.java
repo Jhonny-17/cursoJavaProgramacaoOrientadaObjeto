@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Main {
+public class CalculoRendaApp {
 
 	
 	public static void main(String[] args) {
