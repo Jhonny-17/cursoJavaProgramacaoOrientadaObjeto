@@ -1,9 +1,7 @@
-package application;
+package com.jhonny.exemplovetores;
 
 import java.util.Locale;
 import java.util.Scanner;
-
-import entities.Rent;
 
 public class Exemplos_vetores_pensionato {
 

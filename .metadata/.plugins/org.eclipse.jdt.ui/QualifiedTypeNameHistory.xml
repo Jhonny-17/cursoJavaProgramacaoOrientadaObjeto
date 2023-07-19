@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="entities.Rectngle"/>
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="entities.Account"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="ui.UiTool"/>
     <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
@@ -19,4 +18,8 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.jhonny.interfaceslesson.ConsecionariaApp"/>
     <fullyQualifiedTypeName name="com.jhonny.interfaceslesson.PlataformaVolksWagen"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entities.Employee"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 </qualifiedTypeNameHistroy>

@@ -1,4 +1,4 @@
-package entities;
+package com.jhonny.listadeaumentodesalario;
 
 public class Employee {
 	
@@ -36,5 +36,8 @@ public class Employee {
 	public void increaseSalary(double percentage) {
 		salary += salary * percentage / 100.0;
 		
+	}
+	public String toString() {
+		return id + "," + name + "," + String.format("%.2f", salary);
 	}
 }

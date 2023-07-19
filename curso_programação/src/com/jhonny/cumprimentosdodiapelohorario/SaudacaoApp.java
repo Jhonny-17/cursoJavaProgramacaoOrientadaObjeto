@@ -1,15 +1,17 @@
 package com.jhonny.cumprimentosdodiapelohorario;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class SaudacaoApp {
 
 	public static void main(String[] args) {
 
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		int hora;
+		double hora;
 		
 		System.out.println("Quantas horas?");
-		hora = sc.nextInt();
+		hora = sc.nextDouble();
 		
 		if (hora < 12) {
 			System.out.println("Bom dia!");

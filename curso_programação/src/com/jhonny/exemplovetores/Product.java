@@ -1,4 +1,4 @@
-package entities;
+package com.jhonny.exemplovetores;
 
 public class Product {
 	
