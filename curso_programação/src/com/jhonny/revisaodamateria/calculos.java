@@ -18,13 +18,6 @@ public class calculos {
 		double som = x + y;
 		
 		System.out.printf("Operações: " + mult + ";" + divis + ";" + som);
-		
-		
-		
-		
-		
-		
-		
 		sc.close();
 	}
 
