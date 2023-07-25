@@ -9,15 +9,18 @@ public class calculos {
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+
+		double x;
+		x = sc.nextDouble();
+		System.out.printf("Você digitou: %.1f%n", x);
+	
+		char y;
+		y = sc.next().charAt(5);
+		System.out.println("Você digitou: " + y);
+
 		
-		int x = sc.nextInt();
-		double y = sc.nextDouble();
 		
-		double mult = x * y;
-		double divis = x/y;
-		double som = x + y;
 		
-		System.out.printf("Operações: " + mult + ";" + divis + ";" + som);
 		sc.close();
 	}
 

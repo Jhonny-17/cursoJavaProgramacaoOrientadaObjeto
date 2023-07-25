@@ -22,7 +22,7 @@ public class Program {
 		String workerName = sc.nextLine();
 		System.out.print("Level: ");
 		String workerLevel = sc.nextLine();
-		System.out.print("Nam: ");
+		System.out.print("Base salary: ");
 		double baseSalary = sc.nextDouble();
 		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
 		
@@ -42,18 +42,14 @@ public class Program {
 		}
 		
 		System.out.println();
-		System.out.println("Enter month and year to calculate income (MM/YYYY): ");
+		System.out.print("Enter month and year to calculate income (MM/YYYY): ");
 		String monthAndYear = sc.next();
 		int month = Integer.parseInt(monthAndYear.substring(0, 2));
 		int year = Integer.parseInt(monthAndYear.substring(3));
 		System.out.println("Name: " + worker.getName());
 		System.out.println("Department: " + worker.getDepartment().getName());
-		System.out.println("Income for " + monthAndYear + ":" + String.format("%.2f" , worker.income(year, month)));
-		
-		
-		
-		
-		
+		System.out.println("Income for " + monthAndYear + ":" + String.format(" %.2f" , worker.income(year, month)));
+	
 		sc.close();
 	}
 
