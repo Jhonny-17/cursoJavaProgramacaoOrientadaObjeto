@@ -29,13 +29,6 @@ public class ExercicioDeCalculos {
 		System.out.printf("QUADRADO: %.3f%n", quadrado);
 		System.out.printf("RETANGULO: %.3f%n", retangulo);
 		
-		
-		
-		
-		
-		
-		
-		
 		sc.close();
 	}
 
