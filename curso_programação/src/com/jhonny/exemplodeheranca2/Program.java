@@ -17,15 +17,16 @@ public class Program {
 		List<Product> list = new ArrayList<>();
 
 		System.out.print("Enter the number of products: ");
-		int i = sc.nextInt();
-		for (i = 1; i <= i; i++) {
+		int n = sc.nextInt();
+		
+		for (int i = 1; i <= n; i++) {
 			System.out.println("Product #" + i + " data:");
 			System.out.print("Common, used or imported (c/u/i)? ");
 			char type = sc.next().charAt(0);
-			System.out.print("Nome: ");
+			System.out.print("Name: ");
 			sc.nextLine();
 			String name = sc.nextLine();
-			System.out.print("Preco: ");
+			System.out.print("Price: ");
 			double price = sc.nextDouble();
 			if (type == 'c') {
 				list.add(new Product(name, price));
@@ -34,19 +35,20 @@ public class Program {
 				LocalDate date = LocalDate.parse(sc.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 				list.add(new UsedProduct(name, price, date));
 			} else {
-				System.out.print("Taxa de importacao: ");
+				System.out.print("Importing rate: ");
 				double customsFee = sc.nextDouble();
 				list.add(new ImportedProduct(name, price, customsFee));
 			}
 
 			System.out.println();
-			System.out.println("ETIQUETAS DE PRECO: ");
+			System.out.println("PRICE TAGS: ");
 			for (Product prod : list) {
 				System.out.println(prod.priceTag());
 			}
-
+			
+			sc.close();
 		}
-		sc.close();
+		
 	}
 
 }
