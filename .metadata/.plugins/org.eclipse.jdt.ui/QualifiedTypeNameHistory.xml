@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="java.time.Instant"/>
     <fullyQualifiedTypeName name="java.time.ZoneId"/>
     <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="com.jhonny.composicao.Worker"/>
     <fullyQualifiedTypeName name="com.jhonny.composicao.WorkerLevel"/>
@@ -32,18 +31,23 @@
     <fullyQualifiedTypeName name="com.jhonny.exemplodeheranca.Employee"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="com.jhonny.heranca.exemplodeclasseabstrata.Account"/>
     <fullyQualifiedTypeName name="com.jhonny.heranca.exemplodeclasseabstrata.SavingsAccount"/>
     <fullyQualifiedTypeName name="com.jhonny.heranca.exemplodeclasseabstrata.BusinessAccount"/>
     <fullyQualifiedTypeName name="com.jhonny.metodosabstrados.Color"/>
     <fullyQualifiedTypeName name="com.jhonny.metodosabstrados.Rectangle"/>
     <fullyQualifiedTypeName name="com.jhonny.metodosabstrados.Circle"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.jhonny.exerciciometodoabstrato.TaxPayer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
 </qualifiedTypeNameHistroy>
