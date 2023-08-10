@@ -1,6 +1,6 @@
 package com.jhonny.resolvendoprobl.sem.orientacao.ob;
 
-public class Class {
+public class Triangle_class {
 
 	public double a;
 	public double b;

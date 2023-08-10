@@ -22,7 +22,7 @@ public class Listas {
 			System.out.println(x);
 		}
 		System.out.println("---------------------");
-		list.removeIf(x -> x.charAt(3) == 'x');
+		list.removeIf(x -> x.charAt(1) == 'a');
 		for (String x : list) {
 			System.out.println(x);
 
