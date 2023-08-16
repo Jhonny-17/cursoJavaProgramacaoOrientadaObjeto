@@ -1,4 +1,4 @@
-package com.jhonny.interfaces;
+package com.jhonny.exemplodeinterfaces;
 
 public class BrazilTaxService implements TaxService {
 	
