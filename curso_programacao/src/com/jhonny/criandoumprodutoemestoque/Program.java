@@ -18,7 +18,7 @@ public class Program {
 		double price = sc.nextDouble();
 		Product product = new Product(name, price);
 		
-		product.setName("Computer");
+		product.setName("TV");
 		System.out.println("Updated name: " + product.getName());
 		product.setPrice(1200.00);
 		System.out.println("Update price: " + product.getPrice());
@@ -29,6 +29,8 @@ public class Program {
 		System.out.print("Enter the number of products to be added in stock: ");
 		int quantity = sc.nextInt();
 		product.increaseQuantity(quantity);
+		
+		System.out.println(name);
 		
 		System.out.println();
 		System.out.println("Updated data: " + product);
@@ -41,7 +43,7 @@ public class Program {
 		System.out.println();
 		System.out.println("Updated data: " + product);
 		
-		
+		 
 		sc.close();
 	}
 

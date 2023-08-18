@@ -1,4 +1,4 @@
-package com.jhonny.lendoumtextocomfilescanner;
+ package com.jhonny.lendoumtextocomfilescanner;
 
 import java.io.File;
 import java.util.Scanner;
