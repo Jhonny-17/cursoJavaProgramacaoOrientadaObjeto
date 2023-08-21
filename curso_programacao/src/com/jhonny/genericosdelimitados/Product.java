@@ -1,6 +1,6 @@
 package com.jhonny.genericosdelimitados;
 
-public class Product {
+public class Product implements Comparable<Product>{
 
 	private String name;
 	private Double price;
