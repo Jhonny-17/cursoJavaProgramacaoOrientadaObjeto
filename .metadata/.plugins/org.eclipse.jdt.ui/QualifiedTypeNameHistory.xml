@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="ui.UiTool"/>
     <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
@@ -16,7 +15,6 @@
     <fullyQualifiedTypeName name="com.jhonny.interfaceslesson.ConsecionariaApp"/>
     <fullyQualifiedTypeName name="com.jhonny.interfaceslesson.PlataformaVolksWagen"/>
     <fullyQualifiedTypeName name="entities.Employee"/>
-    <fullyQualifiedTypeName name="java.time.Instant"/>
     <fullyQualifiedTypeName name="java.time.ZoneId"/>
     <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
@@ -28,7 +26,6 @@
     <fullyQualifiedTypeName name="com.jhonny.heranca.SavingsAccount"/>
     <fullyQualifiedTypeName name="com.jhonny.exemplodeheranca.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="com.jhonny.exemplodeheranca.Employee"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.jhonny.heranca.exemplodeclasseabstrata.Account"/>
     <fullyQualifiedTypeName name="com.jhonny.heranca.exemplodeclasseabstrata.SavingsAccount"/>
@@ -39,18 +36,25 @@
     <fullyQualifiedTypeName name="com.jhonny.exerciciometodoabstrato.TaxPayer"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatterBuilder"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="com.jhonny.exercicioInterfaces.Installment"/>
+    <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.jhonny.setexercicioresolvido.LogEntry"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.jhonny.setexercicioproposto.NumberOfStudents"/>
+    <fullyQualifiedTypeName name="java.io.Reader"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
