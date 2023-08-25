@@ -3,44 +3,32 @@ package com.jhonny.exerciciomap;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class Program {
 
 	public static void main(String[] args) {
-	
-		
+
 		Scanner sc = new Scanner(System.in);
-		
-		
-		Map<Urn, Integer> urn = new HashMap<>();
-		
+		Map<String, Integer> urn = new LinkedHashMap<>();
+
 		System.out.println("Enter file full path: ");
 		String path = sc.next();
-		
-		try (BufferedReader br = new BufferedReader(new FileReader(path))){
+
+		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+
 			String line = br.readLine();
-			while(line != null) {
-				
+			while (line != null) {
+
 				String[] fields = line.split(",");
 				String name = fields[0];
-				String vote = fields[1];
-				
+				int count = Integer.parseInt(fields[1]);
 			}
-			System.out.println("Contains");
-			
-			
-			
-		}
-		catch(IOException e){
+
+		} catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
 		}
-		sc.close();
-		
-		
-		
 	}
-
 }
