@@ -53,11 +53,11 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="javax.xml.stream.events.Namespace"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>
