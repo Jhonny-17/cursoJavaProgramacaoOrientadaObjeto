@@ -1,4 +1,4 @@
-package sequentialStructure4;
+package com.jhonny.sequential_structure;
 
 import java.util.Locale;
 import java.util.Scanner;

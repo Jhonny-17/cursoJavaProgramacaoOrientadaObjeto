@@ -1,9 +1,9 @@
-package objectOrientedProgramming;
+package com.jhonny.object_oriented_programming;
 
 public class Rectangle {
 	
-	private Double width;
-	private Double height;
+	public Double width;
+	public Double height;
 	
 	public Rectangle() {
 	}
@@ -11,5 +11,14 @@ public class Rectangle {
 		this.width = width;
 		this.height = height;
 	}
-
+	public Double area() {
+		return height * width;
+	}
+	public Double perimeter() {
+		return 2 * (width + height);
+	}
+	public Double diagonal() {
+		return Math.sqrt(width * width + height * height);
+	}
+	
 }

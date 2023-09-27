@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.jhonny.interfaceslesson.PlataformaVolksWagen"/>
-    <fullyQualifiedTypeName name="entities.Employee"/>
-    <fullyQualifiedTypeName name="java.time.ZoneId"/>
-    <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="com.jhonny.composicao.Worker"/>
-    <fullyQualifiedTypeName name="com.jhonny.composicao.WorkerLevel"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="com.jhonny.composicao2.Post"/>
     <fullyQualifiedTypeName name="com.jhonny.heranca.BusinessAccount"/>
@@ -36,9 +29,7 @@
     <fullyQualifiedTypeName name="com.jhonny.setexercicioproposto.NumberOfStudents"/>
     <fullyQualifiedTypeName name="java.io.Reader"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
@@ -50,7 +41,6 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Readable"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="javax.xml.stream.events.Namespace"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -59,5 +49,15 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="com.jhonny.objectOrientedProgramming.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.jhonny.constructors_this_word_overloading_encapsulation.Product"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.jhonny.memory_behavior_arrays_lists.Product"/>
+    <fullyQualifiedTypeName name="com.jhonny.desafios.Pilha"/>
+    <fullyQualifiedTypeName name="com.jhonny.desafios.PilhaJhonny"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
 </qualifiedTypeNameHistroy>

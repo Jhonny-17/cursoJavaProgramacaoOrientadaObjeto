@@ -1,4 +1,4 @@
-package repetitiveStructures6;
+package com.jhonny.repetitive_structures;
 
 import java.util.Scanner;
 
