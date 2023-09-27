@@ -16,27 +16,29 @@ public class PilhaJhonny implements Pilha<Integer> {
 	@Override
 	public Integer pop() {
 		if(isEmpty()) {
-			
+			throw new IllegalStateException("A pilha está vazia");
 		}
-		return null;
+		return elementos.remove(elementos.size() - 1);
 	}
 
 	@Override
 	public boolean exist(Integer item) {
-		// TODO Auto-generated method stub
-		return false;
+		return elementos.contains(item);
 	}
 
 	@Override
 	public Integer[] toArray() {
-		return elementos.toArray((T[]) new Object[elementos.size()]);
+		return elementos.toArray(new Integer[0]);
 	}
 
 	@Override
 	public void print() {
-		for (T )
+		for (Integer elementos : elementos) {
+			System.out.println(elementos);
+		}
 	}
-
 	
-	
+	public boolean isEmpty() {
+		return elementos.isEmpty();
+	}
 }

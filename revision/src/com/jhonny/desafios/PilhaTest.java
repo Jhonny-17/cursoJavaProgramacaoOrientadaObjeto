@@ -33,8 +33,10 @@ class PilhaTest {
 			.append("");
 			
 			assertEquals(valor, gabarito[i], msg.toString() );
+			System.out.println(msg);
 		}
 		
+			
 	}
 
 }
